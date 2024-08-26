@@ -1,0 +1,9 @@
+name = "corrosion"
+type = "javascript"
+
+[build]
+command = "npm run build"
+cwd = "."
+[build.upload]
+format = "service-worker"
+dir = ".svelte-kit/cloudflare"
