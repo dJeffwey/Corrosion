@@ -13,7 +13,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/server/index.js",
+    "build": "echo 'Build script not defined, skipping build.'"
   },
   "author": "",
   "license": "ISC",
