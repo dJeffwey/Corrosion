@@ -18,6 +18,5 @@
     "lib": "lib"
   },
   "author": "",
-  "license": "ISC",
-  "buildOutput": "/.svelte-kit/cloudflare"
+  "license": "ISC"
 }
