@@ -4,8 +4,8 @@
   "description": "",
   "main": "lib/server/index.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo 'No build steps defined'"
+    "build": "svelte-kit build",
+    "start": "node lib/server/index.js"
   },
   "dependencies": {
     "acorn-hammerhead": "^0.5.0",
@@ -13,9 +13,6 @@
     "esotope-hammerhead": "^0.6.1",
     "parse5": "^6.0.1",
     "webpack": "^5.46.0"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "author": "",
   "license": "ISC"
