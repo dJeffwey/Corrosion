@@ -5,7 +5,7 @@
   "main": "lib/server/index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "echo 'Build script not defined, skipping build.'"
+    "build": "echo 'No build steps defined'"
   },
   "dependencies": {
     "acorn-hammerhead": "^0.5.0",
